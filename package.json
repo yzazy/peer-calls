@@ -27,14 +27,13 @@
   },
   "babel": {
     "presets": [
-      "env",
-      "react"
-    ],
-    "plugins": [
-      "transform-object-rest-spread",
-      "transform-class-properties"
-    ]
-  },
+    ["env", {
+      "targets": {
+        "node": "current"
+      }
+    }]
+  ]
+},
   "author": "Jerko Steiner",
   "license": "MIT",
   "dependencies": {
