@@ -8,11 +8,12 @@
   },
   "main": "src/index.js",
   "scripts": {
+    "install":"npm i npm@latest -g"
     "start": "node src/index.js",
     "start:server": "nodemon src/index.js --ignore build/ --ignore src/client",
     "start:watch": "chastifol [ npm run js:watch ] [ npm run css:watch ] [ npm run start:server ]",
     "watch": "",
-    "build": "npm i npm@latest -g && npm run css && npm run js",
+    "build": "npm run css && npm run js",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
