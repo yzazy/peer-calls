@@ -25,15 +25,7 @@
     "lint:fix": "eslint . --fix",
     "ci": "npm run lint && npm run test:coverage && npm run build"
   },
-  "babel": {
-    "presets": [
-    ["env", {
-      "targets": {
-        "node": "current"
-      }
-    }]
-  ]
-},
+  "babel": { "presets": ["env"] },
   "author": "Jerko Steiner",
   "license": "MIT",
   "dependencies": {
