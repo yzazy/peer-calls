@@ -25,7 +25,19 @@
     "lint:fix": "eslint . --fix",
     "ci": "npm run lint && npm run test:coverage && npm run build"
   },
-  "babel": { "presets": ["env", "react"] },
+  "babel": {
+    "presets": [
+      "env",
+      "es2015",
+      "es2016",
+      "es2017",
+      "react"
+    ],
+    "plugins": [
+      "transform-object-rest-spread",
+      "transform-class-properties"
+    ]
+},
   "author": "Jerko Steiner",
   "license": "MIT",
   "dependencies": {
