@@ -27,12 +27,12 @@
   },
   "babel": {
     "presets": [
-      "env",
-      "es2015",
-      "es2016",
-      "es2017",
-      "react"
-    ],
+    ["latest", {
+      "es2015": {
+        "modules": false
+      }
+    }]
+  ],
     "plugins": [
       "transform-object-rest-spread",
       "transform-class-properties"
