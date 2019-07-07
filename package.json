@@ -74,7 +74,7 @@
     "babel-preset-react": "6.24.1",
     "babelify": "7.3.0",
     "chastifol": "4.1.0",
-    "eslint": "3.19.0",
+    "eslint": "6.0.1",
     "eslint-config-standard": "10.2.1",
     "eslint-config-standard-react": "5.0.0",
     "eslint-plugin-import": "^2.13.0",
